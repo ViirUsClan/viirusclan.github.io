@@ -6,12 +6,3 @@ body {
 	font-family: Ubuntu, sans-serif;
 	text-align: center;
 }
-
-@media only screen and (max-width: 600px) {
-	h1 {
-	   font-size: 40px;
-	}
-	h3 {
-	   font-size: 28px;
-	}
-}
