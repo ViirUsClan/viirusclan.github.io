@@ -10,3 +10,7 @@ h3 {
 	text-align: center;
 	color: #6d0d0d;
 }
+::selection {
+	background: white;
+	color: #6d0d0d;
+}
