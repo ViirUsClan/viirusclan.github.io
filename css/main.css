@@ -6,10 +6,11 @@ body {
 	font-family: Ubuntu, sans-serif;
 	text-align: center;
 }
-h3 {
-	text-align: center;
+
+h3 {
 	color: #6d0d0d;
 }
+
 ::selection {
 	background: white;
 	color: #6d0d0d;
