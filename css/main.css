@@ -1,20 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700');
-
 body {
 	background: #dddddd;
 	color: #333333;
 	font-family: Ubuntu, sans-serif;
 	text-align: center;
 }
-
 h3 {
 	color: #6d0d0d;
 }
-
 .maintitel{
 	padding: 80px 0 0 0 ;
 }
-
 #behindnav {
 	background: #dddddd;
 	position: fixed;
@@ -22,12 +18,10 @@ h3 {
 	min-height: 67px;
 	width: 100%;
 }
-
 ::selection {
 	background: #6d0d0d;
 	color: #ffffff;
 }
-
 #headermobile {
 	table-layout: fixed;
 	position: fixed;
@@ -35,7 +29,6 @@ h3 {
 	left: 0;
 	top: 0;
 }
-
 table tr {
 	background-color: black;
 	color: white;
