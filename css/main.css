@@ -11,7 +11,44 @@ h3 {
 	color: #6d0d0d;
 }
 
+.maintitel{
+	padding: 80px 0 0 0 ;
+}
+
+#behindnav {
+	background: #dddddd;
+	position: fixed;
+	left: 0; top: 0;
+	min-height: 67px;
+	width: 100%;
+}
+
 ::selection {
 	background: #6d0d0d;
 	color: #ffffff;
+}
+
+#headermobile {
+	table-layout: fixed;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+table tr {
+	background-color: black;
+	color: white;
+}
+table tr td a {
+	height: 60px;
+	line-height: 60px;
+	color: white;
+	background: black;
+	text-decoration: none;
+	width: 100%;
+	display: block;
+}
+table tr td a:hover {
+	color: red;
 }
