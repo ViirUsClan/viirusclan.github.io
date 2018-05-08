@@ -5,6 +5,9 @@ body {
 	font-family: Ubuntu, sans-serif;
 	text-align: center;
 }
+h1 {
+	font-size: 32px;
+}
 h3 {
 	color: #6d0d0d;
 	font-size: 18px;
@@ -72,6 +75,9 @@ a.socialmedias:hover {
 	color: #ffffff;
 }
 @media only screen and (max-device-width: 480px) {
+	h1 {
+	font-size: 50px;
+	}
 	h3 {
 		font-size: 15px;
 	}
