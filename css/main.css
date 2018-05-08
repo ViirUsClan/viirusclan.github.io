@@ -8,6 +8,9 @@ body {
 h1 {
 	font-size: 32px;
 }
+h2 {
+	font-size: 24px;
+}
 h3 {
 	color: #6d0d0d;
 	font-size: 18px;
@@ -76,7 +79,10 @@ a.socialmedias:hover {
 }
 @media only screen and (max-device-width: 480px) {
 	h1 {
-	font-size: 50px;
+		font-size: 55px;
+	}
+	h2 {
+		font-size: 50px;
 	}
 	h3 {
 		font-size: 15px;
@@ -86,6 +92,9 @@ a.socialmedias:hover {
 	}
 	#footer {
 		font-size: 20px;
+	}
+	a.socialmedias {
+		font-size: 35px;
 	}
 }
 @media only screen and (max-width: 407px) {
