@@ -46,7 +46,7 @@ table tr td a:hover {
 	color: red;
 }
 #footer {
-	position: absolute;
+	position: fixed;
 	left: 0; bottom: 0;
 	height: 30px;
 	line-height: 30px;
@@ -65,7 +65,7 @@ a.socialmedias {
 	text-decoration: none;
 }
 a.socialmedias:hover {
-	opacity: 0.5;	
+	opacity: 0.5;
 }
 ::selection {
 	background: #6d0d0d;
