@@ -55,6 +55,18 @@ table tr td a:hover {
 	background: #cccccc;
 	border-top: 1px solid black;
 }
+#icons {
+	width: 25px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+a.socialmedias {
+	color: #6d0d0d;
+	text-decoration: none;
+}
+a.socialmedias:hover {
+	opacity: 0.5;	
+}
 ::selection {
 	background: #6d0d0d;
 	color: #ffffff;
