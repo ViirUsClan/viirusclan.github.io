@@ -59,6 +59,9 @@ table tr td a:hover {
 	color: #ffffff;
 }
 @media only screen and (max-device-width: 480px) {
+	h3 {
+		font-size: 25px;
+	}
 	table tr td a {
 		font-size: 28px;
 	}
