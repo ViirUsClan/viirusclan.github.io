@@ -1,68 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700');
 body {
   background: #dddddd;
-  color: #333333;
   font-family: Ubuntu, sans-serif;
-}
-
-h1 {
-  font-size: 32px;
-	text-align: center;
-}
-
-h2 {
-  font-size: 24px;
-	text-align: center;
-}
-.content {
-	margin: 0 10%;
-}
-hr {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.maintitel {
-  padding: 80px 0 0 0;
-}
-
-a.socialmedias {
-  color: #6d0d0d;
-  text-decoration: none;
-}
-
-a.socialmedias:hover {
-  opacity: 0.5;
-}
-
-#behindnav {
-  background: #dddddd;
-  position: fixed;
-  left: 0;
-  top: 0;
-  min-height: 67px;
   width: 100%;
 }
-
-#navigation {
+div#navigation table {
+  position: fixed;
+  top: 0; left: 0;
   table-layout: fixed;
-  position: fixed;
   width: 100%;
-  left: 0;
-  top: 0;
+  text-align: center;
 }
 
-#lowerthan460 {
-  line-height: 60px;
-}
-
-table#navigation tr {
-  background-color: black;
-  color: white;
-	text-align: center;
-}
-
-table#navigation tr td a {
+div#navigation table tr td a {
   height: 60px;
   line-height: 60px;
   color: white;
@@ -70,70 +19,85 @@ table#navigation tr td a {
   text-decoration: none;
   width: 100%;
   display: block;
+  transition-duration: 0.5s;
+  font-size: 16px;
 }
 
-table#navigation tr td a:hover {
-  color: red;
+div#navigation table tr td a:hover {
+  color: #ff9400;
 }
 
-table#socialfuckingmedias tr td {
-  padding: 6px 0;
+.logonav {
+  width: 60px;
+  vertical-align: middle;
+}
+.logonav:hover {
+  opacity: 0.7;
 }
 
-#icons {
+.haupttitel {
+  padding-top: 80px;
+}
+
+hr {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+table.socialtable tr td a img {
   width: 25px;
   vertical-align: middle;
   margin-right: 10px;
 }
 
-#footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 30px;
-  line-height: 30px;
-  width: 100%;
-  font-size: 15px;
-  background: #cccccc;
-  border-top: 1px solid black;
-	text-align: center;
+table.socialtable tr td a {
+  text-decoration: none;
+  color: #bf6a04;
+  font-weight: bold;
+  font-size: 16px;
 }
-
-div#footer a {
-	color: #333333;
-	text-decoration: none;
+table.socialtable tr td a:hover {
+  color: black;
+  opacity: 0.5;
 }
 
 ::selection {
-  background: #6d0d0d;
-  color: #ffffff;
+  color: #ff9400;
+  background: white;
 }
 
 @media only screen and (max-device-width: 480px) {
+  h1 {
+    font-size: 70px;
+  }
   h2 {
-    font-size: 55px;
+    font-size: 50px;
   }
-	p {
-		font-size: 30px;
-	}
-  table tr td a {
-    font-size: 28px;
+  div#navigation table tr td a {
+    height: 90px;
+    line-height: 90px;
+    font-size: 32px;
   }
-  a.socialmedias {
-    font-size: 42px;
+  .logonav {
+    width: 80px;
   }
-  #footer {
-    font-size: 20px;
-  }
-  #icons {
+  table.socialtable tr td a img {
     width: 50px;
-    height: 50px;
-    vertical-align: top;
+    vertical-align: bottom;
+    margin: 14px 10px 0 0;
   }
-}
-
-@media only screen and (max-width: 407px) {
-  table tr td#lowerthan460 a {
-    line-height: 30px;
+  table.socialtable tr td a {
+    font-size: 45px;
+    font-weight: normal;
   }
 }
