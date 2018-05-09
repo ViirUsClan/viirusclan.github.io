@@ -15,6 +15,10 @@ h3 {
 	color: #6d0d0d;
 	font-size: 18px;
 }
+hr {
+	width: 90%;
+	margin: 0 auto;
+}
 .maintitel{
 	padding: 80px 0 0 0 ;
 }
