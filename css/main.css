@@ -21,6 +21,7 @@ div#navigation table tr td a {
   display: block;
   transition-duration: 0.5s;
   font-size: 16px;
+  opacity: 0.7;
 }
 
 div#navigation table tr td a:hover {
