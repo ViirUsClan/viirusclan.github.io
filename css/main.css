@@ -110,9 +110,6 @@ div#footer a {
 }
 
 @media only screen and (max-device-width: 480px) {
-  h1 {
-    font-size: 55px;
-  }
   h2 {
     font-size: 55px;
   }
