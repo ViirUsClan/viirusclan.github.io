@@ -18,6 +18,13 @@ h3 {
 .maintitel{
 	padding: 80px 0 0 0 ;
 }
+a.socialmedias {
+	color: #6d0d0d;
+	text-decoration: none;
+}
+a.socialmedias:hover {
+	opacity: 0.5;
+}
 #behindnav {
 	background: #dddddd;
 	position: fixed;
@@ -51,6 +58,11 @@ table tr td a {
 table tr td a:hover {
 	color: red;
 }
+#icons {
+	width: 25px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
 #footer {
 	position: fixed;
 	left: 0; bottom: 0;
@@ -60,18 +72,6 @@ table tr td a:hover {
 	font-size: 15px;
 	background: #cccccc;
 	border-top: 1px solid black;
-}
-#icons {
-	width: 25px;
-	vertical-align: middle;
-	margin-right: 10px;
-}
-a.socialmedias {
-	color: #6d0d0d;
-	text-decoration: none;
-}
-a.socialmedias:hover {
-	opacity: 0.5;
 }
 ::selection {
 	background: #6d0d0d;
@@ -90,11 +90,11 @@ a.socialmedias:hover {
 	table tr td a {
 		font-size: 28px;
 	}
-	#footer {
-		font-size: 20px;
-	}
 	a.socialmedias {
 		font-size: 42px;
+	}
+	#footer {
+		font-size: 20px;
 	}
 	#icons {
 		width: 50px;
