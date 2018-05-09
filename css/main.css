@@ -1,116 +1,137 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700');
 body {
-	background: #dddddd;
-	color: #333333;
-	font-family: Ubuntu, sans-serif;
-	text-align: center;
+  background: #dddddd;
+  color: #333333;
+  font-family: Ubuntu, sans-serif;
+  text-align: center;
 }
+
 h1 {
-	font-size: 32px;
+  font-size: 32px;
 }
+
 h2 {
-	font-size: 24px;
+  font-size: 24px;
 }
+
 h3 {
-	color: #6d0d0d;
-	font-size: 18px;
+  color: #6d0d0d;
+  font-size: 18px;
 }
+
 hr {
-	width: 90%;
-	margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
-.maintitel{
-	padding: 80px 0 0 0 ;
+
+.maintitel {
+  padding: 80px 0 0 0;
 }
+
 a.socialmedias {
-	color: #6d0d0d;
-	text-decoration: none;
+  color: #6d0d0d;
+  text-decoration: none;
 }
+
 a.socialmedias:hover {
-	opacity: 0.5;
+  opacity: 0.5;
 }
+
 #behindnav {
-	background: #dddddd;
-	position: fixed;
-	left: 0; top: 0;
-	min-height: 67px;
-	width: 100%;
+  background: #dddddd;
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-height: 67px;
+  width: 100%;
 }
+
 #headermobile {
-	table-layout: fixed;
-	position: fixed;
-	width: 100%;
-	left: 0;
-	top: 0;
+  table-layout: fixed;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
 }
+
 #lowerthan460 {
-	line-height: 60px;
+  line-height: 60px;
 }
+
 table#headermobile tr {
-	background-color: black;
-	color: white;
+  background-color: black;
+  color: white;
 }
+
 table#headermobile tr td a {
-	height: 60px;
-	line-height: 60px;
-	color: white;
-	background: black;
-	text-decoration: none;
-	width: 100%;
-	display: block;
+  height: 60px;
+  line-height: 60px;
+  color: white;
+  background: black;
+  text-decoration: none;
+  width: 100%;
+  display: block;
 }
+
 table#headermobile tr td a:hover {
-	color: red;
+  color: red;
 }
-table#socialfuckingmedias tr td{
-	padding: 6px 0;
+
+table#socialfuckingmedias tr td {
+  padding: 6px 0;
 }
+
 #icons {
-	width: 25px;
-	vertical-align: middle;
-	margin-right: 10px;
+  width: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
 }
+
 #footer {
-	position: fixed;
-	left: 0; bottom: 0;
-	height: 30px;
-	line-height: 30px;
-	width: 100%;
-	font-size: 15px;
-	background: #cccccc;
-	border-top: 1px solid black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  font-size: 15px;
+  background: #cccccc;
+  border-top: 1px solid black;
 }
+
 ::selection {
-	background: #6d0d0d;
-	color: #ffffff;
+  background: #6d0d0d;
+  color: #ffffff;
 }
+
 @media only screen and (max-device-width: 480px) {
-	h1 {
-		font-size: 55px;
-	}
-	h2 {
-		font-size: 55px;
-	}
-	h3 {
-		font-size: 15px;
-	}
-	table tr td a {
-		font-size: 28px;
-	}
-	a.socialmedias {
-		font-size: 42px;
-	}
-	#footer {
-		font-size: 20px;
-	}
-	#icons {
-		width: 50px;
-		height: 50px;
-		vertical-align: top;
-	}
+  h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 55px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  table tr td a {
+    font-size: 28px;
+  }
+  a.socialmedias {
+    font-size: 42px;
+  }
+  #footer {
+    font-size: 20px;
+  }
+  #icons {
+    width: 50px;
+    height: 50px;
+    vertical-align: top;
+  }
 }
+
 @media only screen and (max-width: 407px) {
-	table tr td#lowerthan460 a {
-		line-height: 30px;
-	}
+  table tr td#lowerthan460 a {
+    line-height: 30px;
+  }
 }
