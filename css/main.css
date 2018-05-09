@@ -42,11 +42,11 @@ a.socialmedias:hover {
 #lowerthan460 {
 	line-height: 60px;
 }
-table tr {
+table#headermobile tr {
 	background-color: black;
 	color: white;
 }
-table tr td a {
+table#headermobile tr td a {
 	height: 60px;
 	line-height: 60px;
 	color: white;
@@ -55,8 +55,11 @@ table tr td a {
 	width: 100%;
 	display: block;
 }
-table tr td a:hover {
+table#headermobile tr td a:hover {
 	color: red;
+}
+table#socialfuckingmedias tr td{
+	padding: 6px 0;
 }
 #icons {
 	width: 25px;
