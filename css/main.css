@@ -96,7 +96,8 @@ table.socialtable tr td a:hover {
     font-size: 32px;
   }
   .logonav {
-    width: 80px;
+    width: 100px;
+    vertical-align: top;
   }
   table.socialtable tr td a img {
     width: 50px;
