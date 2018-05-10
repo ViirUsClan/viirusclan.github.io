@@ -33,12 +33,13 @@ div#navigation table tr td a:hover {
 }
 
 .logonav {
-	width: 60px;
-	height: 60px;
-	background: url(http://www.corelangs.com/css/box/img/duck.png) no-repeat;
+  width: 60px;
+  vertical-align: middle;
+  transition-duration: 0.5s;
 }
+
 .logonav:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .haupttitel {
