@@ -48,6 +48,9 @@ div#navigation table tr td a:hover {
 hr {
   width: 90%;
   margin: 0 auto;
+  border: none;
+  border-bottom: 1px solid black;
+  opacity: 0.5;
 }
 
 h1 {
