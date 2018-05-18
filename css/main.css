@@ -31,6 +31,14 @@ div#navigation table tr td a:hover {
   background: linear-gradient(to bottom, black, #ff9400);
 }
 
+em a {
+  color: #ba6c01;
+  text-decoration: none;
+}
+em a:hover {
+  color: black;
+}
+
 .logonav {
   width: 60px;
   vertical-align: middle;
