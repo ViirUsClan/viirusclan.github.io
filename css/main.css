@@ -45,7 +45,7 @@ li a:hover {
 a#loginhehe {
   position: absolute;
   right: 5%;
-  line-height: 40px;
+  line-height: 45px;
   color: #bf6a04;
   text-decoration: none;
 }
@@ -58,11 +58,11 @@ a#loginhehe:hover {
   vertical-align: middle;
 }
                                           /*  ENDE NAVIGATION  */
-em a {
-  color: #ba6c01;
+a {
+  color: #bf6a04;
   text-decoration: none;
 }
-em a:hover {
+a:hover {
   color: black;
 }
 
