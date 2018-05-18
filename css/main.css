@@ -60,6 +60,7 @@ a#loginhehe:hover {
                                           /*  ENDE NAVIGATION  */
 a {
   color: #bf6a04;
+  font-weight: bold;
   text-decoration: none;
 }
 a:hover {
