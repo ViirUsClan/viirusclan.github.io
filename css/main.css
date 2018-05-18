@@ -44,10 +44,12 @@ li a:hover {
 
 a#loginhehe {
   position: absolute;
-  right: 5%;
-  line-height: 45px;
+  right: 0;
+  line-height: 46px;
   color: #bf6a04;
   text-decoration: none;
+  min-width: 10%;
+  text-align: center;
 }
 a#loginhehe:hover {
   color: white;
@@ -57,6 +59,22 @@ a#loginhehe:hover {
   width: 60px;
   vertical-align: middle;
 }
+
+a#loginaktiv {
+  position: absolute;
+  right: 0;
+  line-height: 46px;
+  color: black;
+  background: #ff9400;
+  text-decoration: none;
+  min-width: 10%;
+  text-align: center;
+}
+
+a#loginaktiv:hover {
+  color: white;
+  background: #777777;
+}
                                           /*  ENDE NAVIGATION  */
 a {
   color: #bf6a04;
@@ -65,6 +83,11 @@ a {
 }
 a:hover {
   color: black;
+}
+
+p.fakelogin {
+  margin: 0 20%;
+  padding-top: 20px;
 }
 
 .haupttitel {
