@@ -58,11 +58,11 @@ a#loginhehe:hover {
   vertical-align: middle;
 }
                                           /*  ENDE NAVIGATION  */
-a.regular {
+a {
   color: #bf6a04;
   text-decoration: none;
 }
-a.regular:hover {
+a:hover {
   color: black;
 }
 
