@@ -7,93 +7,58 @@ body {
 table {
   border-collapse: collapse;
 }
-                                          /*  START NAVIGATION  */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-
-li {
-    float: left;
-    min-width: 10%;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #777777;
-    color: white;
-}
-
-.active {
-    background-color: #FF9400;
-    color: black;
-}
-
-a#loginhehe {
-  position: absolute;
-  right: 0;
-  line-height: 46px;
-  color: #bf6a04;
-  text-decoration: none;
-  min-width: 10%;
+                                  /*  START NAVIGATION  */
+div#navigation table {
+  position: fixed;
+  top: 0; left: 0;
+  table-layout: fixed;
+  width: 100%;
   text-align: center;
 }
-a#loginhehe:hover {
+
+div#navigation table tr td a {
+  height: 60px;
+  line-height: 60px;
   color: white;
+  background: black;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  font-size: 16px;
 }
 
-#toplogo {
+div#navigation table tr td a:hover {
+  background: linear-gradient(to bottom, black, #ff9400);
+}
+                                  /*  ENDE NAVIGATION  */
+em a {
+  color: #ba6c01;
+  text-decoration: none;
+}
+em a:hover {
+  color: black;
+}
+
+.logonav {
   width: 60px;
   vertical-align: middle;
+  transition-duration: 0.5s;
 }
 
-a#loginaktiv {
-  position: absolute;
-  right: 0;
-  line-height: 46px;
-  color: black;
-  background: #ff9400;
-  text-decoration: none;
-  min-width: 10%;
-  text-align: center;
+.logonav:hover {
+  opacity: 0.5;
 }
 
-a#loginaktiv:hover {
-  color: white;
-  background: #777777;
+.haupttitel {
+  padding-top: 80px;
 }
-                                          /*  ENDE NAVIGATION  */
+
 a {
-  color: #bf6a04;
-  font-weight: bold;
-  text-decoration: none;
-}
-a:hover {
-  color: black;
+  font-weight: bold!important;
 }
 
 p.fakelogin {
   margin: 0 20%;
-  padding-top: 20px;
-}
-
-.haupttitel {
-  padding-top: 10px;
-  font-size: 40px;
-  text-align: center;
 }
 
 hr {
@@ -102,6 +67,11 @@ hr {
   border: none;
   border-bottom: 1px solid black;
   opacity: 0.5;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
 }
 
 h2 {
@@ -130,13 +100,23 @@ table.socialtable tr td a:hover {
   color: #ff9400;
   background: white;
 }
-                                          /*  START RESPONSIVE  */
+
+::-moz-selection {
+  color: #ff9400;
+  background: white;
+}
+                                  /*  START RESPONSIVE  */
 @media only screen and (max-device-width: 480px) {
   h1 {
     font-size: 70px;
   }
   h2 {
     font-size: 50px;
+  }
+  div#navigation table tr td a {
+    height: 90px;
+    line-height: 90px;
+    font-size: 32px;
   }
   .logonav {
     width: 100px;
@@ -151,4 +131,9 @@ table.socialtable tr td a:hover {
     font-size: 45px;
     font-weight: normal;
   }
+  p.fakelogin {
+    margin: 0 20%;
+    font-size: 25px;
+  }
 }
+                                  /*  ENDE NAVIGATION  */
