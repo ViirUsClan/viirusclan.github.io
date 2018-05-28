@@ -113,6 +113,17 @@ a#stats {
 a#stats:hover {
   color: black;
 }
+img.KC {
+  height: 50px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+a.KChover {
+  opacity: 1;
+}
+a.KChover:hover {
+  opacity: 0.6;
+}
 table.socialtable tr td a img {
   width: 25px;
   vertical-align: middle;
