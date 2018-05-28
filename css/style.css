@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,700');
 html, body {
   margin: 0;
   padding: 0;
@@ -129,7 +130,7 @@ table.socialtable tr td a:hover {
   opacity: 0.5;
 }
 @media(max-width: 786px) {
-  .logo {
+  .logo, .logo2 {
     margin: 0;
     position: fixed;
     top: 10px;
