@@ -4,7 +4,6 @@ html, body {
   padding: 0;
   width: 100%;
 }
-
 body {
   font-family: Ubuntu, sans-serif;
   font-weight: lighter;
@@ -23,19 +22,7 @@ header {
   background: url(../img/titelbild.png) no-repeat 50% 50%;
   background-size: cover;
 }
-
-.content {
-  width: 94%;
-  margin: 4em auto;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: justify;
-}
-p.nope {
-  text-align: center;
-  color: #ff0000;
-  font-weight: bold;
-}
+                            /* -  Alles mit Navigation  - */
 .logo {
   line-height: 60px;
   position: fixed;
@@ -59,7 +46,6 @@ nav {
   width: 100%;
   line-height: 60px;
 }
-
 nav ul {
   line-height: 60px;
   list-style: none;
@@ -71,39 +57,46 @@ nav ul {
   margin: 0;
   transition: 1s;
 }
-
 nav.black ul {
   background: rgba(0, 0, 0, 0.8);
 }
-
 nav ul li {
   display: inline-block;
   padding: 16px 40px;
 }
-
 nav ul li a {
   text-decoration: none;
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;
-  transition-duration: .3s;
+  transition: 0.3s;
 }
-
 nav ul li a:hover {
   color: #ff9400;
   border-bottom: 3px solid #ffffff;
 }
-
 .menu-icon {
   line-height: 60px;
   width: 100%;
   background: #000000;
   text-align: right;
   box-sizing: border-box;
-  padding: 15px 24px;
   cursor: pointer;
   color: #ffffff;
   display: none;
+}
+                            /* -  Inhaltliches  - */
+.content {
+  width: 94%;
+  margin: 64px auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+p.nope {
+  text-align: center;
+  color: #ff0000;
+  font-weight: bold;
 }
 a#stats {
   color: #ba6c01;
@@ -124,12 +117,12 @@ a.KChover {
 a.KChover:hover {
   opacity: 0.6;
 }
+                            /* -  Social Media Tabelle  - */
 table.socialtable tr td a img {
   width: 25px;
   vertical-align: middle;
   margin-right: 10px;
 }
-
 table.socialtable tr td a {
   text-decoration: none;
   color: #bf6a04;
@@ -140,6 +133,7 @@ table.socialtable tr td a:hover {
   color: black;
   opacity: 0.5;
 }
+                            /* -  Responsive Shit  - */
 @media(max-width: 786px) {
   .logo, .logo2 {
     margin: 0;
@@ -156,7 +150,7 @@ table.socialtable tr td a:hover {
     background: #000000;
   }
   .zeigebitte {
-    max-height: 34em;
+    max-height: 544px;
   }
   nav ul li {
     box-sizing: border-box;
@@ -170,6 +164,7 @@ table.socialtable tr td a:hover {
   #blibdochda {
     position: fixed;
     right: 20px;
+    top: 10px;
   }
   .komischestrich {
     width: 35px;
@@ -179,6 +174,10 @@ table.socialtable tr td a:hover {
   }
 }
 ::selection {
+  color: #ff9400;
+  background: #000000;
+}
+::-moz-selection {
   color: #ff9400;
   background: #000000;
 }
