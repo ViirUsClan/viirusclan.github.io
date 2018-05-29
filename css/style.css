@@ -55,7 +55,7 @@ nav ul {
   padding: 0;
   text-align: right;
   margin: 0;
-  transition: 1s;
+  transition: 0.3s;
 }
 nav.black ul {
   background: rgba(0, 0, 0, 0.8);
@@ -64,6 +64,7 @@ nav ul li {
   display: inline-block;
   padding: 16px 40px;
 }
+
 nav ul li a {
   text-decoration: none;
   color: #ffffff;
@@ -75,6 +76,7 @@ nav ul li a:hover {
   color: #ff9400;
   border-bottom: 3px solid #ffffff;
 }
+
 .menu-icon {
   line-height: 60px;
   width: 100%;
@@ -115,7 +117,7 @@ a.KChover {
   opacity: 1;
 }
 a.KChover:hover {
-  opacity: 0.6;
+  opacity: 0.4;
 }
                             /* -  Social Media Tabelle  - */
 table.socialtable tr td a img {
