@@ -39,15 +39,14 @@
     <h1>ViirUs Clan Germany</h1>
     <hr>
     <h2>Kontakt.</h2>
-
-    <form action="mailto:marcel@gertsch.be?subject=Kontaktanfrage" method="post" enctype="text/plain" target="_blank">
-      <label>Name: </label><input name="Name" type="text" required /><br>
-      <label>Email:</label><input name="E-Mail" type="email" required /><br>
-      <label>Nachricht</label><textarea name="Nachricht"></textarea><br>
-      <div align="center">
+    <div align="center">
+      <form method="POST" action="https://formspree.io/clan.vrus@gmail.com">
+        <label>Name</label><br><input name="Name" type="text" required /><br>
+        <label>Email</label><br><input name="E-Mail" type="email" required /><br>
+        <label>Nachricht</label><br><textarea name="Nachricht"></textarea><br>
         <input type="submit" value="absenden">
-      </div>
-    </form>
+      </form>
+    </div>
   </div>
 </body>
 

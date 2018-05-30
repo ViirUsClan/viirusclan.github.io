@@ -124,13 +124,6 @@ form {
   width: 60%;
   margin: 0 auto;
 }
-label {
-  display: inline-block;
-  min-width: 35%;
-  vertical-align: top;
-  margin-right: 5%;
-  text-align: right;
-}
 input[type="text"], input[type="email"] {
   min-width: 50%;
   margin: 0 0 20px 0;
