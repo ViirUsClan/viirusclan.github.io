@@ -134,7 +134,6 @@ textarea {
   font-size: 17px;
   border: 1px solid #000000;
   width: 50%;
-  max-width: 50%;
   height: 140px;
   resize: none;
   margin: 0 0 20px 0;
@@ -210,6 +209,11 @@ table.socialtable tr td a:hover {
     height: 5px;
     background-color: #ffffff;
     margin: 6px 0;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
   }
 }
 ::selection {
