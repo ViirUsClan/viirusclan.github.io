@@ -106,7 +106,7 @@ a#stats {
   font-weight: bold;
 }
 a#stats:hover {
-  color: black;
+  color: #000000;
 }
 img.KC {
   height: 50px;
@@ -168,7 +168,7 @@ table.socialtable tr td a {
   font-size: 16px;
 }
 table.socialtable tr td a:hover {
-  color: black;
+  color: #000000;
   opacity: 0.5;
 }
                             /* -  Responsive Shit  - */
